@@ -1,0 +1,7 @@
+v 3
+d wfe - Weighted Fixed Effects Estimators for Causal Inference with Panel Data
+d Implements the weighted fixed effects (wfe) and propensity-score weighted
+d fixed effects (pwfe) estimators of Imai and Kim (2021) for causal inference
+d with longitudinal panel data.
+d
+p wfe

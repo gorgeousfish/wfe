@@ -1,0 +1,48 @@
+v 3
+d wfe: Weighted Fixed Effects Estimators for Causal Inference with Panel Data
+d
+d Implements the weighted fixed effects (WFE) and propensity-score weighted
+d fixed effects (PWFE) estimators introduced by Imai and Kim (2021) for
+d causal inference with longitudinal/panel data.
+d
+d Commands: wfe, pwfe
+d
+d Requires: Stata 16+
+d
+d
+d Author: Xuanyu Cai
+d
+F wfe.ado
+F pwfe.ado
+F wfe_estat.ado
+F wfe_predict.ado
+F _wfe_preprocess_inspect.ado
+F __wfe_vshim.ado
+F wfe.sthlp
+F pwfe.sthlp
+F lwfe.mlib
+F wfe_utils.mata
+F wfe_ols.mata
+F wfe_wwdemean.mata
+F wfe_weights_unit.mata
+F wfe_weights_time.mata
+F wfe_weights_fd.mata
+F wfe_weights_did.mata
+F wfe_weights_mdid.mata
+F wfe_se_hac.mata
+F wfe_se_fe_twoway.mata
+F wfe_se_gmm.mata
+F wfe_se_pwfe.mata
+F wfe_white_test.mata
+F wfe_oneway.mata
+F wfe_complex_project.mata
+F wfe_twoway_fe_ols.mata
+F wfe_twoway.mata
+F wfe_transform.mata
+F wfe_pscore_bridge.mata
+F wfe_pwfe.mata
+F wfe_postestimation.mata
+F wfe_bridge.mata
+F data/dem.csv
+F data/castle.csv
+F data/acemoglu2019.csv
