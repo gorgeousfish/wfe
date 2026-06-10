@@ -629,7 +629,7 @@ program define wfe, eclass sortpreserve
                 exit 498
             }
             else if _rc == 3352 {
-                * FE-side HAC infeasible for White test; retry with nowhite
+                * White test skipped: FE-side variance infeasible (typical for two-way paths with limited df)
                 local white "nowhite"
                 display as text "(note: White test skipped — FE-side degrees of freedom insufficient)"
                 capture mata: _wfe_twoway_estimate()

@@ -365,6 +365,14 @@ White statistic is numerically negative despite {cmd:Phi} passing those
 checks, {cmd:wfe} issues a warning and posts {cmd:e(white_stat)} with
 {cmd:e(white_pvalue) = 1} rather than aborting the entire command.
 
+{pmore}
+The White test is most informative for one-way paths ({cmd:method(unit)},
+{cmd:method(time)}, and {cmd:estimator(fd)}).  For two-way estimators
+({cmd:estimator(did)} or {cmd:estimator(Mdid)}), identification relies on
+parallel trends rather than linear additivity; the test is attempted when
+degrees of freedom permit but is automatically skipped with a note otherwise.
+{p_end}
+
 {dlgtab:DiD and Mdid}
 
 {phang}
